@@ -1,0 +1,8 @@
+#path: Dataset/dataset-vehicles  # dataset root dir
+train: ../datasets/data_thuctap/  # train images (relative to 'path')
+val: ../datasets/data_thuctap/  # val images (relative to 'path')
+test:  # test images (optional)
+
+# Classes
+nc: 5  #so luong lop can phan loai
+names: [ 'Car', 'Motorcycle', 'Truck', 'Bus', 'Bicycle']  # ten cac lop can phan loai
